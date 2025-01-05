@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text for contrast */
+    background-color: #000; /* Black background */
+  }
+  
+  header {
+    background-color: #111; /* Slightly lighter black for header */
+    color: #f7a8f4; /* Light pink text */
+    padding: 10px 20px;
+  }
+  
+  header nav ul li a {
+    color: #f7a8f4; /* Light pink links */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff69b4; /* Bright pink on hover */
+  }
+  
+  
+  /* Section Styles */
+  section {
+    padding: 40px 20px;
+  }
+  
+  #about {
+    background-color: #222; /* Dark black-gray for contrast */
+    text-align: center;
+    color:  #ff69b4;
+  }
+  
+  #about img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff69b4; /* Pink border for the image */
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    background-color: #333; /* Slightly lighter black for skills */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #skills ul li:hover {
+    background-color: #ff69b4; /* Pink hover effect */
+    color: #000; /* Black text on hover */
+  }
+  
+  /* Project Section */
+  #projects {
+    background-color: #111;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 3px solid #ff69b4;
+  }
+  
+  .project h3 {
+    color: #f7a8f4;
+  }
+  
+  .project p {
+    color: #ccc;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #222;
+  }
+  
+  form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff69b4;
+  }
+  
+  form input, form textarea {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  form button {
+    background-color: #ff69b4;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #f7a8f4;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: #f7a8f4;
+  }
+  
+  /* Add Responsiveness */
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project img {
+      max-width: 100%;
+    }
+  }
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 15px;  /* Add space between the links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;  /* Change this color to fit your design */
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #007ced;  /* Change to the color you want on hover */
+  }
+  .skill {
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    height: 20px;
+    margin: 5px 0;
+  }
+  
+  .progress {
+    background-color: #ff69b4;
+    height: 100%;
+    transition: width 1s ease-in-out;
+  }
+  .btn {
+    display: inline-block;
+   
+    padding: 12px 25px;
+    background-color: #007ced;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+    
